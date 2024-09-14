@@ -1,4 +1,5 @@
 import 'package:confuse/core/utils/app_styles.dart';
+import 'package:confuse/core/widgets/bottom_navigation_bar.dart';
 import 'package:confuse/features/Home/presentation/view/home_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -63,7 +64,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   
   void navigation() {
     Future.delayed(const Duration(seconds: 3), () {
-      GoRouter.of(context).push(HomeView.routename);
+      GoRouter.of(context).push(PageViewShowed.pageviewid);
   });
 }
 }

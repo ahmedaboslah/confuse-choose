@@ -15,7 +15,7 @@ class CategoryGridView extends StatelessWidget {
       itemBuilder: (context, index) {
         return const Padding(
           padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-          child: CategoryCard(),
+          child: SizedBox(width:180,height: 200,child: CategoryCard()),
         );
       },
     );
