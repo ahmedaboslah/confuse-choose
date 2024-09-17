@@ -54,7 +54,7 @@ class _SplashViewBodyState extends State<SplashViewBody> {
             alignment: Alignment.center,
             child: Text(
               'Confuse&Choose',
-              style: TextStyles.bold20,
+              style: TextAppStyles.bold20,
             ),
           ),
         ),

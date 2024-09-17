@@ -18,14 +18,15 @@ class HomePageViewBody extends StatelessWidget {
           padding: EdgeInsets.only(left: 8),
           child: Text(
             'Choose your dish',
-            style: TextStyles.semiBold20,
+            style: TextAppStyles.semiBold20,
           ),
         ),
         SizedBox(
           height: 30,
         ),
         Expanded(
-            child: CategoryGridView())
+          child: CategoryGridView(),
+        ),
       ],
     );
   }

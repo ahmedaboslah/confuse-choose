@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-abstract class TextStyles {
+abstract class TextAppStyles {
   static const TextStyle semiBold20 = TextStyle(
     fontWeight: FontWeight.w600,
     fontSize: 20,

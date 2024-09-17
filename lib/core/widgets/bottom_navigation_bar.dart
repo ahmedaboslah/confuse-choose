@@ -57,9 +57,9 @@ class PageViewShowed extends StatefulWidget {
 
 class _PageViewShowedState extends State<PageViewShowed> {
   List<Widget> pages = [
-    HomeView(),
-     HomeView(),
-      HomeView(),
+    const HomeView(),
+     const HomeView(),
+      const HomeView(),
    
   ];
   int Selectedindex = 0;
@@ -77,7 +77,7 @@ class _PageViewShowedState extends State<PageViewShowed> {
         padding: const EdgeInsets.all(8.0),
         child: Container(
           height: 65,
-          decoration: BoxDecoration(color: Colors.transparent),
+          decoration: const BoxDecoration(color: Colors.transparent),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(16),
             child: BottomNavigationBar(
