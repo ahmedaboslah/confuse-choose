@@ -45,6 +45,7 @@
 // }
 import 'package:confuse/core/utils/colors.dart';
 import 'package:confuse/features/Home/presentation/view/home_view.dart';
+import 'package:confuse/features/search/presentation/view/search_view.dart';
 import 'package:flutter/material.dart';
 
 
@@ -58,7 +59,7 @@ class PageViewShowed extends StatefulWidget {
 class _PageViewShowedState extends State<PageViewShowed> {
   List<Widget> pages = [
     const HomeView(),
-     const HomeView(),
+     const SearchView(),
       const HomeView(),
    
   ];
@@ -89,7 +90,7 @@ class _PageViewShowedState extends State<PageViewShowed> {
                 items: const <BottomNavigationBarItem>[
                   BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.lens_blur_sharp), label: ''),
+                      icon: Icon(Icons.search_outlined), label: ''),
                   BottomNavigationBarItem(icon: Icon(Icons.person), label: ''),
                 ]),
           ),
